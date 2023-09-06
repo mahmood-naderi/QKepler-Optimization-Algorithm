@@ -2,7 +2,7 @@
 function [Sun_Score, Sun_Pose, Convergence_curve] = QuantumKOA(SearchAgents_no, Tmax, ub, lb, dim, fobj, fhd)
 
 
-mapName = 'sinsuidal';
+mapName = 'sinsuidal'; % logistic, sinuidal, Tent, Singer, Piecewise
 
 % Definitions
 Sun_Pos = zeros(1, dim);
